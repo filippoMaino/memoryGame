@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory</title>
+    <link rel="stylesheet" href="./bootstrap4/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row py-4">
+            <div class="col-6 offset-3">
+                <div class="form-group">
+                    <label for="">Inserisci il tuo nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Nome Giocatore"  required>
+                </div>
+                <button class="btn btn-success" id="btnInizio" onclick="startStop()">Inizia a giocare</button>
+            </div>
+            <div class="col-3">
+                <div id="timer"></div>
+            </div>
+        </div>
+        <div class="row py-4">
+            <div class="col-4" id="">
+                <p class="h2">Classifica</p>
+                <div id="classifica"></div>
+            </div>
+            <div class="col-8 " id="cardsWindow">
+
+                    
+            </div>
+        </div>
+    </div>
+</body>
+</html>

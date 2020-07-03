@@ -1,0 +1,48 @@
+.carta{
+    padding-top: 25;
+    text-align: center;
+    text-justify: center;
+    background-color: #eee;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    line-height: 100%;
+
+    /*background-image: url(https://picsum.photos/100/100)*/;
+    
+      
+}
+
+.cartA{
+    cursor: pointer;
+    
+}
+.cartA:hover{
+    background-color: aqua ; 
+
+}
+.hidden{
+    display: none;
+}
+
+.selected{
+    background-color: blue ;  /*altrimenti rimane l'hover*/ 
+}
+
+/* .matching{
+    background-color: green;
+    color: whitesmoke; /*colore del numero, del contenuto}*/
+ 
+
+.greenMatched{
+    background-color: green;
+}
+
+.redMatched{
+    background-color: red;
+}
+
+.hide{
+    display: none;
+}
